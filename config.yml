@@ -1,0 +1,11 @@
+network:
+  websocket_url: "ws://localhost:9292/telemetry"
+  output_mode: "console" # options: "websocket", "console"
+
+simulation:
+  send_frequency: 0.1 # 0,1 = 10 Hz
+
+  sensors:
+    temperature_enabled: true
+    pressure_enabled: true
+    gps_enabled: true
